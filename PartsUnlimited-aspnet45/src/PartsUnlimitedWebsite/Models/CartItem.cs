@@ -14,6 +14,7 @@ namespace PartsUnlimited.Models
         public int ProductId { get; set; }
         public int Count { get; set; }
 
+
         [DataType(DataType.DateTime)]
         public DateTime DateCreated { get; set; }
 
